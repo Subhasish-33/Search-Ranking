@@ -29,8 +29,8 @@ To move beyond keyword matching, the model utilizes:
 ## 🚦 How to Run
 
 ### 1. Clone the repo
-```bash
-git clone [https://github.com/Subhasish-33/Search-Ranking-LTR.git](https://github.com/Subhasish-33/Search-Ranking-LTR.git)
+
+    git clone [https://github.com/Subhasish-33/Search-Ranking-LTR.git](https://github.com/Subhasish-33/Search-Ranking-LTR.git)
 cd Search-Ranking-LTR
 
 2. Install Dependencies:
@@ -45,3 +45,12 @@ cd Search-Ranking-LTR
  BM25(Baseline)	    0.42	      0.38
  LambdaMART(Final)  0.54	      0.49
 
+## 📊 Model Visualizations
+
+### Feature Importance
+The model prioritized **Cosine Similarity** (Semantic) and **BM25** (Lexical) as the top signals for ranking.
+![Feature Importance](./results/feature_importance.png)
+
+### NDCG@k Curve
+The following curve illustrates the consistent performance gain of LambdaMART over the BM25 baseline across all rank positions.
+![NDCG Curve](./results/ndcg_curve.png)
