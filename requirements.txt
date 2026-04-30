@@ -1,0 +1,12 @@
+lightgbm
+scikit-learn
+pandas
+numpy
+sentence-transformers
+rank_bm25
+networkx
+datasets
+matplotlib
+seaborn
+optuna
+tqdm

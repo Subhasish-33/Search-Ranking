@@ -1,0 +1,14 @@
+# Environments
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Data
+data/
+
+# Models
+models/
+
+# Results/Outputs (Ignore text reports but include plots)
+results/*.txt
