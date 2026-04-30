@@ -31,7 +31,7 @@ To move beyond keyword matching, the model utilizes:
 ### 1. Clone the repo
 
     git clone [https://github.com/Subhasish-33/Search-Ranking-LTR.git](https://github.com/Subhasish-33/Search-Ranking-LTR.git)
-cd Search-Ranking-LTR
+    cd Search-Ranking-LTR
 
 2. Install Dependencies:
     pip install lightgbm pandas scikit-learn
